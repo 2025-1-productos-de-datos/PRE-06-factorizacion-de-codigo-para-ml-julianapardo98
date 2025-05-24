@@ -32,7 +32,7 @@ def main():
     save_model_if_better(model, x_test, y_test)
 
 
-# python3 homework/src/main.py --model elasticnet --l_ratio 0.1 --alpha 1
+# python3 -m homework/src/main.py --model elasticnet --l_ratio 0.1 --alpha 1
 
 if __name__ == "__main__":
     main()
